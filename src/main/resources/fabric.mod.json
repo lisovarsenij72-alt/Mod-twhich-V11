@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1, "id": "minime", "version": "${version}", "name": "MiniMe",
+  "description": "Клиентский мод: маленькие летающие чибики-компаньоны со скинами игроков. Показывают сообщения Twitch-чата в комикс-пузырях, озвучивают чат, реагируют на мемы и ломаются от удара.",
+  "environment": "client",
+  "icon": "assets/minime/icon.png",
+  "entrypoints": {
+    "main": ["dev.minime.MiniMeMain"],
+    "client": ["dev.minime.MiniMeClient"]
+  },
+  "depends": { "fabricloader": ">=0.19.0", "minecraft": "~26.2", "java": ">=25", "fabric-api": "*" }
+}
